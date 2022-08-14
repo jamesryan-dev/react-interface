@@ -1,0 +1,73 @@
+Arguments: 
+  /Users/james/.nvm/versions/node/v16.14.0/bin/node /usr/local/Cellar/yarn/1.22.17_2/libexec/bin/yarn.js
+
+PATH: 
+  /Users/james/.nvm/versions/node/v16.14.0/bin:/Users/james/opt/miniconda3/bin:/Users/james/opt/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "reactinterface",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@craco/craco": "^6.1.1",
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^11.1.0",
+      "@testing-library/user-event": "^12.1.10",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-icons": "^4.2.0",
+      "react-scripts": "4.0.3",
+      "web-vitals": "^1.0.1"
+    },
+    "scripts": {
+      "start": "craco start",
+      "build": "craco build",
+      "test": "craco test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "@tailwindcss/forms": "^0.2.1",
+      "@tailwindcss/postcss7-compat": "^2.0.3",
+      "autoprefixer": "^9.8.6",
+      "postcss": "^7.0.35",
+      "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
